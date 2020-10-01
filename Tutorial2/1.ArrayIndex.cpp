@@ -10,14 +10,20 @@ int main(){
     mobil[0]="Suzuki";
     mobil[1]="Mazda";
     mobil[2]="BMW";
+    mobil[3]="Mercy";
+    motor[0]="Honda";
+    motor[1]="yamaha";
     //disini saya output kan secara langsung element yang telah diisi
-    cout<<"Mobil Pertama Adalah "<<mobil[0]<<" dan mobil ketiga adalah "<<mobil[2]<<".\n";
+    cout<<"Mobil Pertama Adalah "<<mobil[0]<<" dan mobil ketiga adalah "<<mobil[3]<<".\n";
     cout<<"List Semua Mobil !\n";
+    
+    cout<<"Motor Pertama Adalah "<<motor[0]<<" dan mobil ketiga adalah "<<motor[1]<<".\n";
+    cout<<"List Semua Motor !\n";
     //dan ini jika saya output semua nilai variabel menggunakan perulangan for
     for(int x=0;x<=2;x++){
         //mobil[x] dinamis semua nilai si x, yaitu 0,1,2
         //x+1 berarti itungan "Mobil ke-" Dimulai dari 1.
-        cout<<"Mobil Ke-"<<x+1<<" Adalah "<<mobil[x]<<endl;
+        cout<<"Motor Ke-"<<x+1<<" Adalah "<<motor[x]<<endl;
     }
     //Thanks All, Happy Code ^-^
 }
